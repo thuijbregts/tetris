@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="matrix_background">#040818</color>
+    <color name="transparent">#82000000</color>
+    <color name="panel_border">#3a4393</color>
+    <color name="square_border">#161b43</color>
+    <color name="panel_background">#c805051e</color>
+    <color name="panel_header">#c80b1536</color>
+    <color name="empty_square">#05051e</color>
+    <color name="empty_square_1">#080a22</color>
+    <color name="empty_square_2">#090a25</color>
+    <color name="empty_square_3">#050e1e</color>
+    <color name="empty_square_4">#091125</color>
+
+    <color name="button_default">#c805051e</color>
+    <color name="button_pressed">#0a1741</color>
+
+    <color name="button_new_game_default">#b42a0000</color>
+    <color name="button_new_game_pressed">#b4540000</color>
+
+    <color name="button_main_text">#7331335f</color>
+    <color name="button_main_text_outline">#c65252b6</color>
+
+    <color name="button_settings_default">#b42a2704</color>
+    <color name="button_settings_pressed">#b4544c07</color>
+
+    <color name="text_color_title">#c82154ae</color>
+    <color name="text_color_content">#c83c82ca</color>
+
+    <color name="button_stroke">#2f3247</color>
+
+    <color name="text">#152d6d</color>
+    <color name="mino_i">#60E7FF</color>
+    <color name="mino_j">#4632AA</color>
+    <color name="mino_l">#FE851C</color>
+    <color name="mino_o">#ECD10A</color>
+    <color name="mino_s">#42B734</color>
+    <color name="mino_t">#BC68FF</color>
+    <color name="mino_z">#B91914</color>
+</resources>

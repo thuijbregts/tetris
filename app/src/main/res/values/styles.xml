@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="main_menu_button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="game_activity_panels_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color_content</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+
+    <style name="game_activity_panels_text_header" parent="game_activity_panels_text">
+        <item name="android:background">@drawable/panel_header_background</item>
+        <item name="android:textColor">@color/text_color_title</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="game_activity_panels">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:background">@drawable/panel_background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="game_activity_matrix_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="game_activity_matrix_col">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="game_activity_panels_tetrimino">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="game_activity_panels_tetrimino_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="game_activity_panels_tetrimino_image">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="button_direction_style">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/button_rectangle</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="button_rotation_style">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+</resources>

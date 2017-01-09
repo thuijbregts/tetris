@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/tetris_logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:padding="50dp"
+        android:gravity="center_horizontal">
+        <RelativeLayout
+            style="@style/main_menu_button"
+            android:background="@drawable/button_new_game"
+            android:id="@+id/main_start">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_new_game"/>
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            style="@style/main_menu_button"
+            android:background="@drawable/button_settings"
+            android:id="@+id/main_settings">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_settings"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pour ma bouboune d'amour"
+        style="@style/game_activity_panels_text_header"
+        android:background="@null"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
